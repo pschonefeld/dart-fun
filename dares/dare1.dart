@@ -13,13 +13,13 @@ void main() {
       "Dawn Summers":null
   };
 
-  secretSantas.keys.forEach((k)=>
-    secretSantas[k] = secretSantas.keys.firstWhere(
-        (String x)=>!secretSantas.values.contains(x) && x.split(" ").last!=k.split(" ").last,
-        orElse:(){})
-  );
-  
-  secretSantas.forEach((k,v)=>print(v!=null?"$k gives to $v":"Company gives to $k"));
+  secretSantas
+    ..keys.forEach((k)=>
+        secretSantas[k] = secretSantas.keys.firstWhere(
+          (String x)=>!secretSantas.values.contains(x) && x.split(" ").last!=k.split(" ").last,
+          orElse:(){})
+        )
+    ..forEach((k,v)=>print(v!=null?"$k gives to $v":"Company gives to $k"));
   
 }
 
