@@ -1,0 +1,286 @@
+---
+build.dart --machine --changed=pubspec.yaml --changed=web\clickcounter.dart --changed=web\clickcounter.html --c...
+
+build.dart finished [2811 ms]
+
+---
+build.dart --machine --changed=web\element-a.dart
+
+build.dart finished [1216 ms]
+
+---
+build.dart --machine --removed=web\element-a.dart
+
+build.dart finished [1172 ms]
+
+---
+build.dart --machine --changed=web\Copy of clickcounter.dart --changed=web\Copy of clickcounter.html
+
+build.dart finished [1198 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart --removed=web\Copy of clickcounter.dart
+
+build.dart finished [1202 ms]
+
+---
+build.dart --machine --changed=web\test_a.html --removed=web\Copy of clickcounter.html
+
+build.dart finished [1197 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+build.dart finished [1202 ms]
+
+---
+build.dart --machine --changed=web\test_b.dart --changed=web\test_b.html
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+[{"method":"warning","params":{"file":"web/test_b.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+build.dart finished [1187 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"couldn't find imported asset \"web/test-a.html\" in package \"polymer_debug\".","line":12,"charStart":388,"charEnd":426}}]
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"couldn't find imported asset \"web/test-b.html\" in package \"polymer_debug\".","line":13,"charStart":431,"charEnd":469}}]
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+[{"method":"warning","params":{"file":"web/test_b.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"definition for Polymer element with tag name \"test-a\" not found.","line":26,"charStart":841,"charEnd":849}}]
+build.dart finished [1185 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html --changed=web\test_a.dart
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+[{"method":"warning","params":{"file":"web/test_b.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+[{"method":"warning","params":{"file":"web/test_a.html","message":"duplicate definition for custom tag \"test-a\".","line":2,"charStart":57,"charEnd":107}}]
+[{"method":"warning","params":{"file":"web/test_b.html","message":"duplicate definition for custom tag \"test-a\"  (second definition).","line":2,"charStart":57,"charEnd":107}}]
+build.dart finished [1220 ms]
+
+---
+build.dart --machine --changed=web\test_b.dart
+[{"method":"warning","params":{"file":"web/test_b.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+[{"method":"warning","params":{"file":"web/test_a.html","message":"duplicate definition for custom tag \"test-a\".","line":2,"charStart":57,"charEnd":107}}]
+[{"method":"warning","params":{"file":"web/test_b.html","message":"duplicate definition for custom tag \"test-a\"  (second definition).","line":2,"charStart":57,"charEnd":107}}]
+build.dart finished [1233 ms]
+
+---
+build.dart --machine --changed=web\test_b.html
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":360,"charEnd":368}}]
+build.dart finished [1218 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":341,"charEnd":349}}]
+build.dart finished [1200 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":341,"charEnd":349}}]
+build.dart finished [1235 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+[{"method":"error","params":{"file":"web/test_a.html","message":"Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.","line":3,"charStart":91,"charEnd":129}}]
+build failed with errors: {Transform polymer (Linter) on polymer_debug|web/test_a.html threw error: Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.}
+build.dart finished [1194 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+[{"method":"error","params":{"file":"web/test_a.html","message":"Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.","line":3,"charStart":91,"charEnd":129}}]
+build failed with errors: {Transform polymer (Linter) on polymer_debug|web/test_a.html threw error: Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.}
+build.dart finished [1238 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":341,"charEnd":349}}]
+build.dart finished [1216 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":341,"charEnd":349}}]
+build.dart finished [1219 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":17,"charStart":341,"charEnd":349}}]
+build.dart finished [1208 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+[{"method":"error","params":{"file":"web/test_a.html","message":"Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.","line":3,"charStart":91,"charEnd":129}}]
+[{"method":"warning","params":{"file":"web/test_a.html","message":"definition for Polymer element with tag name \"test-b\" not found.","line":18,"charStart":398,"charEnd":406}}]
+build failed with errors: {Transform polymer (Linter) on polymer_debug|web/test_a.html threw error: Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.}
+build.dart finished [1217 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+[{"method":"error","params":{"file":"web/test_a.html","message":"Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.","line":3,"charStart":91,"charEnd":129}}]
+build failed with errors: {Transform polymer (Linter) on polymer_debug|web/test_a.html threw error: Polymer.dart's implementation of HTML imports are not supported within polymer element definitions, yet. Please move the import out of this <polymer-element>.}
+build.dart finished [1217 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1198 ms]
+
+---
+build.dart --machine --changed=web\test_b.html
+
+build.dart finished [1229 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+
+build.dart finished [1211 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1229 ms]
+
+---
+build.dart --machine --changed=web\test_c.dart --changed=web\test_c.html
+
+build.dart finished [1232 ms]
+
+---
+build.dart --machine --changed=web\test_c.html
+
+build.dart finished [1238 ms]
+
+---
+build.dart --machine --changed=web\test_c.html
+
+build.dart finished [1230 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1236 ms]
+
+---
+build.dart --machine --changed=web\test_c.dart
+
+build.dart finished [1233 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2733 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart
+
+build.dart finished [1454 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart
+
+build.dart finished [1246 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart --changed=web\test_b.dart --changed=web\test_c.dart
+
+build.dart finished [1269 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1250 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1194 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1245 ms]
+
+---
+build.dart --machine --changed=web\test_c.dart
+
+build.dart finished [1195 ms]
+
+---
+build.dart --machine --changed=web\test_b.dart
+
+build.dart finished [1203 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1267 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2090 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2551 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2128 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2636 ms]
+
+---
+build.dart --machine --changed=web\main.dart
+
+build.dart finished [1313 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":512,"charEnd":560}}]
+build.dart finished [1254 ms]
+
+---
+build.dart --machine --changed=web\main.dart
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":512,"charEnd":560}}]
+build.dart finished [1327 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
+build.dart finished [1223 ms]
+
+---
+build.dart --machine --changed=web\main.dart --changed=web\polymer_debug.html
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
+build.dart finished [1252 ms]
+
+---
+build.dart --machine --changed=web\main.dart
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
+build.dart finished [1241 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
+build.dart finished [2449 ms]
+
+---
+build.dart --machine --changed=web\test_b.dart
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
+build.dart finished [1585 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
+build.dart finished [1282 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
+build.dart finished [1306 ms]
+
