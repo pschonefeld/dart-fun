@@ -356,3 +356,68 @@ build.dart --machine --changed=web\mymixin.dart
 
 build.dart finished [1233 ms]
 
+---
+build.dart --machine --changed=web\polymer_debug.html --changed=web\test_a.dart
+
+build.dart finished [1302 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml --changed=web\main.dart --changed=web\mymixin.dart --changed=web\te...
+
+build.dart finished [1242 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart
+
+build.dart finished [1234 ms]
+
+---
+build.dart --machine --changed=web\test_a.html --changed=web\test_b.html --changed=web\test_c.html
+
+build.dart finished [1246 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart
+
+build.dart finished [1312 ms]
+
+---
+build.dart --machine --changed=web\test_b.dart
+
+build.dart finished [1281 ms]
+
+---
+build.dart --machine --changed=web\test_c.dart
+
+build.dart finished [1247 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart
+
+build.dart finished [1285 ms]
+
+---
+build.dart --machine --removed=web\main.dart
+
+build.dart finished [1249 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart
+
+build.dart finished [1300 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart --changed=web\test_b.dart --changed=web\test_c.dart
+
+build.dart finished [1236 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart
+
+build.dart finished [1257 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart
+
+build.dart finished [1255 ms]
+
