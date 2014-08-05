@@ -284,3 +284,103 @@ build.dart --machine --changed=web\test_a.dart
 [{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":494,"charEnd":526}}]
 build.dart finished [1306 ms]
 
+---
+build.dart --machine --changed=web\mymixin.dart --changed=web\polymer_debug.html --changed=web\test_a.dart --ch...
+[{"method":"warning","params":{"file":"web/polymer_debug.html","message":"Wrong script type, expected type=\"application/dart\".","line":14,"charStart":512,"charEnd":572}}]
+build.dart finished [1324 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+
+build.dart finished [1220 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1223 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart
+
+build.dart finished [1497 ms]
+
+---
+build.dart --machine --removed=web\main.dart
+
+build.dart finished [1278 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+
+build.dart finished [1231 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+
+build.dart finished [1220 ms]
+
+---
+build.dart --machine --changed=web\test_b.html
+
+build.dart finished [1245 ms]
+
+---
+build.dart --machine --changed=web\test_c.html
+
+build.dart finished [1247 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1286 ms]
+
+---
+build.dart --machine --changed=web\test_c.dart
+
+build.dart finished [1270 ms]
+
+---
+build.dart --machine --changed=web\polymer_debug.html
+
+build.dart finished [1265 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1254 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1254 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1232 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1233 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1431 ms]
+
+---
+build.dart --machine --changed=web\test_a.html
+
+build.dart finished [1247 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1230 ms]
+
+---
+build.dart --machine --changed=web\test_a.dart
+
+build.dart finished [1269 ms]
+
