@@ -1,6 +1,5 @@
-import 'package:polymer/polymer.dart';
-import 'test_b.dart';
-import 'test_c.dart';
+part of mylib;
+
 @CustomTag('test-a')
 class TestA extends PolymerElement {
 

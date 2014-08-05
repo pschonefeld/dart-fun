@@ -1,8 +1,5 @@
-import 'package:polymer/polymer.dart';
-import 'mymixin.dart';
-/**
- * A Polymer click counter element.
- */
+part of mylib;
+
 @CustomTag('test-c')
 class TestC extends PolymerElement with MyMixin{
 

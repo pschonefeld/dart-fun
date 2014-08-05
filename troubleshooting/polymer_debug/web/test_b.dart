@@ -1,6 +1,4 @@
-import 'package:polymer/polymer.dart';
-import 'mymixin.dart';
-import 'test_c.dart';
+part of mylib;
 
 @CustomTag('test-b')
 class TestB extends PolymerElement with MyMixin{
