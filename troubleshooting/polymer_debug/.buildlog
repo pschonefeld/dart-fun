@@ -421,3 +421,18 @@ build.dart --machine --changed=web\mymixin.dart
 
 build.dart finished [1255 ms]
 
+---
+build.dart --machine --changed=web\test_b.dart
+
+build.dart finished [1251 ms]
+
+---
+build.dart --machine --changed=web\test_b.dart
+
+build.dart finished [1308 ms]
+
+---
+build.dart --machine --changed=web\mymixin.dart
+
+build.dart finished [1243 ms]
+
